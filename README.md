@@ -1,0 +1,2 @@
+# shortlink-manager
+FastLinkManager
