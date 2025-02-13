@@ -1,6 +1,14 @@
 # FastLinkManager
 
-FastLinkManager is a simple and efficient script for managing short links and redirects. This project is offered in two languages: English and Farsi. 
+FastLinkManager is a simple and efficient script for managing short links and redirects. This project is offered in two languages: English and Farsi.
+
+With FastLinkManager, you can create short links both individually and in bulk at high speed on your root domain. It offers three methods for creating short links:
+
+1. **Automatic**: The script automatically generates a unique short ID for each link.
+2. **Custom**: You can manually define a custom short link for your URL.
+3. **Fixed**: This method uses the original structure of the URL, but changes only the domain name.
+
+You can easily manage, edit, and track your short links via the admin panel.
 
 ## Installation Guide
 
@@ -23,7 +31,9 @@ After joining the channel, enter your numerical Telegram ID in the provided fiel
 
 ## Features
 
-- Easy setup and installation process.
+- Create short links in three different modes: Automatic, Custom, and Fixed.
+- High-speed creation of short links, both individually and in bulk.
+- Easy management and editing of links via the admin panel.
 - Multi-language support (Farsi and English).
 - Manage redirects and track link usage.
 - Simple user interface for better management.
@@ -44,6 +54,14 @@ If you encounter any issues or have questions, feel free to contact us through o
 
 FastLinkManager یک اسکریپت ساده و کارآمد برای مدیریت لینک‌های کوتاه و ریدایرکت‌ها است. این پروژه به دو زبان ارائه می‌شود: فارسی و انگلیسی.
 
+با استفاده از FastLinkManager، شما می‌توانید لینک‌های کوتاه را به صورت تکی و عمده با سرعت بسیار بالا روی دامنه روت خود ایجاد کنید. این اسکریپت سه روش مختلف برای ایجاد لینک کوتاه ارائه می‌دهد:
+
+1. **خودکار**: اسکریپت به طور خودکار یک شناسه کوتاه منحصر به فرد برای هر لینک ایجاد می‌کند.
+2. **دستی**: شما می‌توانید لینک کوتاه دلخواه خود را برای هر URL وارد کنید.
+3. **ثابت**: در این روش، ساختار اصلی لینک حفظ می‌شود، فقط دامنه تغییر می‌کند.
+
+همچنین شما می‌توانید لینک‌ها را در پنل مدیریت ویرایش و مدیریت کنید.
+
 ## راهنمای نصب
 
 برای نصب اسکریپت، مراحل زیر را دنبال کنید:
@@ -51,7 +69,6 @@ FastLinkManager یک اسکریپت ساده و کارآمد برای مدیری
 1. پوشه اسکریپت (مثلاً `redirect`) را در دایرکتوری روت هاست خود آپلود کنید.
 2. فایل `install.php` را باز کنید و به آدرس زیر بروید:
    
-
 
 3. مراحل نصب را دنبال کنید و اطلاعات دیتابیس خود را وارد کنید.
 4. بعد از اتمام نصب، می‌توانید از اسکریپت استفاده کنید.
@@ -66,7 +83,9 @@ FastLinkManager یک اسکریپت ساده و کارآمد برای مدیری
 
 ## ویژگی‌ها
 
-- فرایند نصب ساده و سریع.
+- ایجاد لینک کوتاه در سه حالت مختلف: خودکار، دستی و ثابت.
+- ایجاد لینک‌های کوتاه با سرعت بالا، به صورت تکی و عمده.
+- امکان ویرایش و مدیریت لینک‌ها از طریق پنل مدیریت.
 - پشتیبانی از چند زبان (فارسی و انگلیسی).
 - مدیریت ریدایرکت‌ها و پیگیری استفاده از لینک‌ها.
 - رابط کاربری ساده برای مدیریت بهتر.
@@ -82,4 +101,3 @@ FastLinkManager یک اسکریپت ساده و کارآمد برای مدیری
 ## پشتیبانی
 
 اگر با مشکلی مواجه شدید یا سوالی دارید، می‌توانید از طریق کانال تلگرام با ما تماس بگیرید یا یک مسئله در مخزن ثبت کنید.
-
