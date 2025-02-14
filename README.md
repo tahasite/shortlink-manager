@@ -21,6 +21,27 @@ To install the script, follow these steps:
 3. Follow the installation steps and fill in your database information when prompted.
 4. Once the installation is complete, you can start using the script.
 
+## Live Demos
+
+You can check out the live demos of the script:
+
+- **[Demo (EN)](https://fastlinkmanager.tahasite.ir/EN/index.php)**: English version of the script.
+  
+- **[Demo (FA)](https://fastlinkmanager.tahasite.ir/FA/index.php)**: Persian version of the script.
+
+
+
+## Screenshots
+
+Here are some screenshots showing the interface of the script:
+
+### English Version:
+![English Demo Screenshot](https://s6.uupload.ir/files/screencapture-localhost-redirect-index-php-2025-02-14-03_11_01_(1)_p5hk.png)
+
+### Persian Version:
+![Persian Demo Screenshot](https://s6.uupload.ir/files/screencapture-tahasite-ir-redirect-index-php-2025-02-14-02_53_32_fqxt.png)
+
+
 ## Telegram Channel Requirement
 
 To support us and continue the development and distribution of this script and other future projects, we ask that you join our Telegram channel and provide your Telegram ID. This is a simple step to ensure that you're part of our community and receive updates about new versions.
