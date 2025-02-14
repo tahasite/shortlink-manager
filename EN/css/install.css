@@ -1,0 +1,78 @@
+body {
+  font-family: IRANYekan;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-family: IRANYekan;
+}
+button:hover {
+  background-color: #0056b3;
+}
+p {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+form {
+  margin-top: 20px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.style_number p {
+  color: #838383;
+  text-align: justify;
+}
+.style_number a {
+  margin-bottom: 10px;
+  display: flex;
+}
+.style_number {
+  margin-top: -30px;
+}

@@ -1,0 +1,222 @@
+body {
+  font-family: IRANYekan;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+textarea,
+input[type="radio"],
+input[type="submit"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+textarea.manual_text {
+  resize: vertical;
+  height: 150px;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: IRANYekan;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#link-output {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+#linkCount {
+  font-weight: bold;
+}
+#redirectLinks {
+  list-style-type: none;
+  padding: 0;
+}
+#redirectLinks li {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #333;
+}
+div.box_links_numbers {
+  background: #f1f1f1;
+  width: fit-content;
+  padding: 8px 15px;
+  border-radius: 0px 0px 0px 5px;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+button.admin_show {
+  border-radius: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.box_center_flex_num {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.box_radio {
+  border: 2px solid #b9b9b9;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+#short_code_div {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+input[type="radio"] {
+  visibility: hidden;
+}
+.btnRadio3 {
+  position: relative;
+  margin: 2px;
+  width: 85px;
+  height: 30px;
+  border-radius: 15px;
+  background: #cccccc;
+  line-height: 32px;
+  &:before {
+    position: absolute;
+    content: "ON";
+    left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  &:after {
+    position: absolute;
+    content: "OFF";
+    right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+.btnRadio3 label {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  left: 4px;
+  top: 4px;
+  width: 20px;
+  height: 4px;
+  border: 9px solid #ffffff;
+  border-radius: 10px;
+  background: #ff0000;
+  transition: all 0.5s ease;
+}
+.btnRadio3 input[type="radio"]:checked + label {
+  left: 42px;
+  background: #00ff00;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(84, 84, 84, 0.087);
+}
+body::-webkit-scrollbar-thumb {
+  color: #007bff;
+  -webkit-box-shadow: inset 0 0 15px #007bff;
+  transition: box-shadow 0.4s ease;
+}
+.spinner {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  border: 4.5px solid #0000;
+  border-radius: 50%;
+  border-color: #dbdcef #0000;
+  animation: spinner-e04l1k 1s infinite linear;
+}
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 2.2px;
+  border: inherit;
+  border-radius: 50%;
+}
+.spinner::before {
+  border-color: #474bff #0000;
+  animation: inherit;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+.spinner::after {
+  margin: 8.9px;
+}
+@keyframes spinner-e04l1k {
+  100% {
+     transform: rotate(1turn);
+  }
+}
+div#loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background: #f6f6f6;
+  padding: 10px 0px;
+  border-radius: 6px;
+}

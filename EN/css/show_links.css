@@ -1,0 +1,119 @@
+body {
+  font-family: IRANYekan;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="hidden"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-family: IRANYekan;
+}
+button:hover {
+  background-color: #0056b3;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #007bff;
+  color: white;
+}
+td {
+  background-color: #f9f9f9;
+}
+td input[type="url"],
+td input[type="text"] {
+  width: 90%;
+}
+td button {
+  margin-right: 5px;
+}
+p {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+p.green {
+  color: green;
+  text-align: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+.success {
+  color: green;
+  font-size: 14px;
+  text-align: center;
+}
+.out_style_but {
+  background: red;
+  width: fit-content;
+  padding: 7px 20px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: scale 0.4s;
+}
+.out_style_but:hover {
+  scale: 0.9;
+  transition: scale 0.4s;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
