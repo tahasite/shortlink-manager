@@ -50,6 +50,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]+(?:/[^/]+)*)$ redirect/redirect.php?code=$1 [L]
 RewriteRule ^([a-zA-Z0-9]+(?:/[a-zA-Z0-9]+)*)$ redirect/redirect.php?code=$1 [L]
+‍‍‍```
 
 
 ## License
