@@ -38,6 +38,20 @@ After joining the channel, enter your numerical Telegram ID in the provided fiel
 - Manage redirects and track link usage.
 - Simple user interface for better management.
 
+## Important: .htaccess Configuration for Proper Redirects
+
+By default, during the installation process, the `.htaccess` file will be automatically configured to ensure proper functionality of the redirects. However, if for any reason the configuration is not applied successfully, you need to manually ensure that the `.htaccess` file is correctly set up to handle redirects.
+
+The correct configuration for `.htaccess` should look like this:
+
+```apache
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+(?:/[^/]+)*)$ redirect/redirect.php?code=$1 [L]
+RewriteRule ^([a-zA-Z0-9]+(?:/[a-zA-Z0-9]+)*)$ redirect/redirect.php?code=$1 [L]
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
