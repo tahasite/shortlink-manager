@@ -29,6 +29,17 @@ You can check out the live demos of the script:
   
 - **[Demo (FA)](https://fastlinkmanager.tahasite.ir/FA/index.php)**: Persian version of the script.
 
+## 🎥 FastLinkManager Installation & Usage Guide 🚀  
+
+To easily set up and manage **FastLinkManager**, watch the following tutorials:  
+
+### 🔹 Initial Installation & Setup 📂⚙️  
+[![Watch on YouTube](https://img.shields.io/badge/Watch_on_YouTube-red?logo=youtube)](https://youtu.be/77C_K9R4BmI?si=QKjGWioS--HxJfC0)  
+
+### 🔹 Managing & Using Short Links 🔗🎯  
+[![Watch on YouTube](https://img.shields.io/badge/Watch_on_YouTube-red?logo=youtube)](https://youtu.be/kh6DFcGUZRY?si=j1jHafHq18hzH5DT)  
+
+📌 With these tutorials, you can easily install and use **FastLinkManager**! 🚀✨
 
 
 ## Screenshots
@@ -108,6 +119,19 @@ FastLinkManager یک اسکریپت ساده و کارآمد برای مدیری
 
 3. مراحل نصب را دنبال کنید و اطلاعات دیتابیس خود را وارد کنید.
 4. بعد از اتمام نصب، می‌توانید از اسکریپت استفاده کنید.
+
+## 🎥 ویدیوهای آموزشی نصب و استفاده از FastLinkManager 🚀  
+
+برای راه‌اندازی و مدیریت بهتر **FastLinkManager**، ویدیوهای آموزشی زیر را مشاهده کنید:  
+
+### 🔹 آموزش نصب و راه‌اندازی اولیه 📂⚙️  
+[![مشاهده در یوتیوب](https://img.shields.io/badge/مشاهده_در_یوتیوب-red?logo=youtube)](https://youtu.be/77C_K9R4BmI?si=QKjGWioS--HxJfC0)  
+
+### 🔹 آموزش مدیریت و استفاده از لینک‌های کوتاه 🔗🎯  
+[![مشاهده در یوتیوب](https://img.shields.io/badge/مشاهده_در_یوتیوب-red?logo=youtube)](https://youtu.be/kh6DFcGUZRY?si=j1jHafHq18hzH5DT)  
+
+📌 با این ویدیوها، **FastLinkManager** را به راحتی نصب و استفاده کنید! 🚀✨
+
 
 ## محدودیت کانال تلگرام
 
